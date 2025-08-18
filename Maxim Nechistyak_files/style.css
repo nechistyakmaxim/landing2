@@ -63,13 +63,21 @@ h1 {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 .work-item {
 	width: calc(50% - 60px);
 	margin-bottom: 100px;
 	text-align: center;
 	box-sizing: border-box;
-	display: inline-block;
+    display: inline-block;
 }
+
+.work-item:nth-child(2n-2) {
+	position: relative;
+	top: 200px;
+	top: 300px; /* CHANGE THIS for V2 */
+}
+
 .work-item-image {
 	border-radius: 24px;
 	overflow: hidden;
