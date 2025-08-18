@@ -74,7 +74,13 @@ h1 {
 	border-radius: 24px;
 	overflow: hidden;
 	height: 640px;
-	transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+	transition: transform .4s cubic-bezier(0.2, 0.6, 0.2, 1), box-shadow .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+	will-change: transform;
+}
+.work-item-image:hover {
+	transform: scale(1.05);
+	box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+	z-index: 2;
 }
 .work-item img {
 	display: block;
