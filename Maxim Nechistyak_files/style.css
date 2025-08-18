@@ -174,17 +174,33 @@ footer {
 @media screen and (max-width: 900px) {
 	.grid {
 		display: block;
-		padding: 20px;
+		padding: 0 0 20px 0;
+		max-width: 100%;
 	}
 	.work-item {
 		width: 100%;
+		max-width: 100%;
 		margin-bottom: 40px;
 		top: 0 !important;
 		position: static !important;
+		box-sizing: border-box;
 	}
-	.work-item:nth-child(2n-2) {
-		top: 0 !important;
-		position: static !important;
+	.work-item-image {
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+		border-radius: 0;
+		box-sizing: border-box;
+	}
+	.grid .work-item-image img {
+		width: 100%;
+		max-width: 100%;
+		border-radius: 0;
+		display: block;
+		box-sizing: border-box;
+	}
+	body, html {
+		overflow-x: hidden;
 	}
 }
 
