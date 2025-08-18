@@ -134,6 +134,22 @@ footer {
 	padding: 40px;
 }
 
+.slide {
+	opacity: 0;
+	transform: translateY(40px);
+	animation: fadeInUp 0.8s cubic-bezier(0.2, 0.6, 0.2, 1) forwards;
+}
+.delay01 { animation-delay: 0.2s; }
+.delay02 { animation-delay: 0.5s; }
+.delay03 { animation-delay: 0.8s; }
+.delay04 { animation-delay: 1.1s; }
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.header {
 		padding: 20px;
