@@ -1,47 +1,3 @@
-@font-face {
-    font-family: 'Geist';
-    src: url('../fonts/Geist-Light.eot');
-    src: url('../fonts/Geist-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Geist-Light.woff2') format('woff2'),
-        url('../fonts/Geist-Light.woff') format('woff'),
-        url('../fonts/Geist-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Geist';
-    src: url('../fonts/Geist-Regular.eot');
-    src: url('../fonts/Geist-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Geist-Regular.woff2') format('woff2'),
-        url('../fonts/Geist-Regular.woff') format('woff'),
-        url('../fonts/Geist-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Geist';
-    src: url('../fonts/Geist-Medium.eot');
-    src: url('../fonts/Geist-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Geist-Medium.woff2') format('woff2'),
-        url('../fonts/Geist-Medium.woff') format('woff'),
-        url('../fonts/Geist-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Geist';
-    src: url('../fonts/Geist-SemiBold.eot');
-    src: url('../fonts/Geist-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Geist-SemiBold.woff2') format('woff2'),
-        url('../fonts/Geist-SemiBold.woff') format('woff'),
-        url('../fonts/Geist-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,7 +19,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-size: 16px; /* Base font size */
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 }
 
 a {
@@ -145,7 +101,7 @@ video {
 }
 .logo,
 .header a {
-	font-family: 'Geist';
+	font-family: 'Manrope', sans-serif;
 	color: #111111;
 	font-weight: 500;
 	font-size: 1.375rem;
@@ -178,7 +134,7 @@ h1 {
 	font-size: 4.6vw;
 	font-size: 4.5rem;
 	line-height: 120%;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 600;
 	color: #111111;
 }
@@ -253,7 +209,7 @@ h1 {
 
 .work-item-company {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	font-size: 1.375rem;
 	line-height: 160%;
@@ -263,7 +219,7 @@ h1 {
 
 .work-item-description {
 	color: #666666;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 300;
 	font-size: 1.125rem;
 	display: block;
@@ -310,7 +266,7 @@ h1 {
 }
 p {
 	line-height: 160%;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	color: #111111;
 	color: #333333;
 	font-weight: 300;
@@ -319,7 +275,7 @@ p {
 }
 .description a {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	font-size: 1.375rem;
 	padding-top: 30px;
@@ -334,13 +290,13 @@ p {
 }
 p span {
 	line-height: 160%;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	color: #666666;
 	font-weight: 300;
 	font-size: inherit;
 }
 .email {
-	font-family: 'Geist';
+	font-family: 'Manrope', sans-serif;
 	color: #111111;
 	font-weight: 600;
 	font-size: 4rem;
@@ -377,7 +333,7 @@ p span {
 footer {
 	max-width: 760px;
     margin: 0 auto;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	color: #888888;
 	font-weight: 400;
 	font-size: 0.875rem;
@@ -414,7 +370,7 @@ footer {
 }
 h2 {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	font-size: 2.75rem;
 	line-height: 120%;
@@ -422,7 +378,7 @@ h2 {
 }
 h4 {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	font-size: 2rem;
 	line-height: 140%;
@@ -456,7 +412,7 @@ p.years {
 }
 .contact-options a {
 	line-height: 160%;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	color: #111111;
 	font-weight: 400;
 	font-size: 1.375rem;
@@ -544,7 +500,7 @@ p.years {
 
 .work-page-content a {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 400;
 	font-size: inherit;
 	display: block;
@@ -578,7 +534,7 @@ p.years {
 
 h3 {
 	color: #111111;
-    font-family: 'Geist';
+    font-family: 'Manrope', sans-serif;
 	font-weight: 400;
 	font-size: 2rem;
 	font-size: 1.75rem;
@@ -715,7 +671,7 @@ video {
 
 .back-to-projects a {
 	text-align: center;
-	font-family: 'Geist';
+	font-family: 'Manrope', sans-serif;
 	color: #111111;
 	font-weight: 600;
 	font-size: 2.2rem;
