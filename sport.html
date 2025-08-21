@@ -6,45 +6,55 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Максим Нечистяк</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Meta -->
-  <meta name="title" content="1Спорт – приложение для спортсменов">
+  <title>1Спорт – приложение для спортсменов | Максим Нечистяк</title>
   <meta name="author" content="Максим Нечистяк">
   <meta name="description"
     content="1Спорт – современное приложение для учета тренировок, целей и спортивных результатов. Помогает отслеживать прогресс, анализировать эффективность и мотивировать себя.">
-  <meta name="keywords" content="1Спорт, спорт, приложение, фитнес, тренировки, учет, прогресс, мотивация, здоровье">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://1sport.example.com">
 
   <!-- Open Graph -->
   <meta property="og:title" content="1Спорт – приложение для спортсменов">
   <meta property="og:description"
     content="Учет тренировок, контроль прогресса и спортивная мотивация в одном приложении.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="./1Sport_files/Спорт1.webp">
+  <meta property="og:image" content="https://1sport.example.com/1Sport_files/Спорт1.webp">
   <meta property="og:url" content="https://1sport.example.com">
   <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="1Спорт">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="1Спорт – приложение для спортсменов">
+  <meta name="twitter:description"
+    content="Учет тренировок, контроль прогресса и спортивная мотивация в одном приложении.">
+  <meta name="twitter:image" content="https://1sport.example.com/1Sport_files/Спорт1.webp">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="./1Sport_files/style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
   <!-- Header -->
-  <div class="header slide">
+  <header class="header slide">
     <a href="index.html" class="logo">Максим Нечистяк</a>
-    <a href="index.html">Проекты</a>
-  </div>
+    <nav>
+      <a href="index.html">Проекты</a>
+    </nav>
+  </header>
 
   <!-- Work Page -->
-  <div class="work-page slide delay01">
-    <div class="work-page-content">
-      <h1>1Спорт</h1>
+  <main class="work-page slide delay01">
+    <article class="work-page-content">
+      <h2>1Спорт</h2>
       <h3 class="text">
         1Спорт – это современное приложение для учета тренировок, целей и спортивных результатов.
         Оно создано, чтобы помочь каждому спортсмену отслеживать прогресс и мотивировать себя на новые достижения.
@@ -67,25 +77,34 @@
         Мы постоянно развиваем приложение, добавляем новые функции, слушаем отзывы пользователей и делаем 1Спорт всё
         более полезным для вашего здоровья и спорта.
       </p>
-      <p>
-        <a href="https://apps.apple.com/ru/app/1спорт-программы-и-тренировки/id1673404704" target="_blank">Скачать в App
-          Store</a>
-        <a href="https://play.google.com/store/apps/details?id=com.e1c.mobile.sport" target="_blank">Скачать в Google
-          Play</a>
+      <p class="download-links">
+        <a href="https://apps.apple.com/ru/app/1спорт-программы-и-тренировки/id1673404704" target="_blank"
+          rel="noopener noreferrer">Скачать в App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.e1c.mobile.sport" target="_blank"
+          rel="noopener noreferrer">Скачать в Google Play</a>
       </p>
-    </div>
+    </article>
 
-    <img src="./1Sport_files/Спорт1.webp" class="work-page-image" alt="">
-    <img src="./1Sport_files/Спорт2.webp" class="work-page-image" alt="">
-    <img src="./1Sport_files/Спорт3.webp" class="work-page-image" alt="">
-    <img src="./1Sport_files/Спорт4.webp" class="work-page-image" alt="">
-    <img src="./1Sport_files/Спорт5.webp" class="work-page-image" alt="">
+    <!-- Images -->
+    <section class="screenshots">
+      <img src="./1Sport_files/Спорт1.webp" class="work-page-image" alt="Скриншот приложения 1Спорт: главная страница"
+        loading="lazy">
+      <img src="./1Sport_files/Спорт2.webp" class="work-page-image" alt="Скриншот приложения 1Спорт: дневник тренировок"
+        loading="lazy">
+      <img src="./1Sport_files/Спорт3.webp" class="work-page-image"
+        alt="Скриншот приложения 1Спорт: статистика и графики" loading="lazy">
+      <img src="./1Sport_files/Спорт4.webp" class="work-page-image" alt="Скриншот приложения 1Спорт: подбор упражнений"
+        loading="lazy">
+      <img src="./1Sport_files/Спорт5.webp" class="work-page-image" alt="Скриншот приложения 1Спорт: мотивационные цели"
+        loading="lazy">
+    </section>
 
-    <div class="back-to-projects">
+    <nav class="back-to-projects" aria-label="Навигация по сайту">
       <a href="index.html">← Назад к проектам</a>
-    </div>
-  </div>
+    </nav>
+  </main>
 
+  <!-- Footer -->
   <footer class="slide delay02">© Максим Нечистяк 2025</footer>
 
 </body>
