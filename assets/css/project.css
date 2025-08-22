@@ -88,7 +88,6 @@ video {
     position: fixed;
     top: 0;
     z-index: 1000;
-	padding: 40px 0;
 	box-sizing: border-box;
 
 	max-width: 1200px;
@@ -96,6 +95,10 @@ video {
     right:0;
     margin-left:auto;
     margin-right:auto;
+	
+	padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* светлый полупрозрачный фон */
+    border-radius: 8px; /* слегка скругленные углы (по желанию) */
 }
 .logo,
 .header a {
@@ -358,7 +361,7 @@ footer {
 .about .text {
 	margin-bottom: 40px;
 }
-.photo-dejan {
+.photo-maxim {
 	margin: 0 auto;
 	width: 100%;
     max-width: 980px;
@@ -419,11 +422,11 @@ p.years {
 }
 
 
-@mediaX screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 	.about {
 		max-width: 70vw;
 	}
-	.photo-dejan {
+	.photo-maxim {
 		width: 80vw;
 	}
 }
