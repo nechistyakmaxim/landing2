@@ -12,123 +12,103 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <meta name="title" content="Максим Нечистяк – Программист 1С">
-  <meta name="author" content="Максим Нечистяк">
   <meta name="description"
     content="Опытный программист 1С:Предприятие. Разработка, автоматизация учета, интеграции, внедрение ERP-систем.">
-  <meta name="keywords"
-    content="Максим Нечистяк, программист 1С, 1С:Предприятие, ERP, бухгалтерия, автоматизация, интеграция">
+  <meta name="author" content="Максим Нечистяк">
 
-  <link rel="stylesheet" href="assets/css/project.css">
+  <link rel="stylesheet" href="assets/css/project.css"> <!-- сюда твой CSS -->
 </head>
 
 <body>
-  <header class="header slide">
+  <!-- Header -->
+  <div class="header slide">
     <a href="index.html" class="logo">Максим Нечистяк</a>
-    <a href="#experience">Опыт</a>
-    <a href="#skills">Навыки</a>
-    <a href="#contacts">Контакты</a>
-  </header>
-
-  <main class="about-page slide delay01">
-    <section class="about">
-      <h2>Программист 1С с 15+ летним опытом разработки и внедрения решений</h2>
-      <p class="text">
-        Занимаюсь созданием и поддержкой учетных систем на платформе 1С:Предприятие, автоматизацией бизнес-процессов, интеграцией с внешними сервисами и разработкой собственных модулей.
-      </p>
-      <p class="text">
-        В проектах совмещаю типовой функционал с индивидуальными доработками, чтобы компании получали эффективные и удобные решения.
-      </p>
-    </section>
-
-    <section id="experience" class="about">
-      <h4>Опыт работы</h4>
-
+    <a href="index.html">Проекты</a>
+  </div>
+  <div class="about-page slide delay01">
+    <!-- Experience -->
+    <div class="about" id="experience">
+      <h2>Опыт работы</h2>
       <div class="multi-row">
         <p class="title">Ведущий программист</p>
-        <p class="entity">1С, ЗАО (Москва) | <a href="https://1c.ru" target="_blank">www.1c.ru</a></p>
+        <p class="entity">1С, ЗАО (Москва) — <a href="https://1c.ru" target="_blank">www.1c.ru</a></p>
         <p class="years">Сентябрь 2022 – наст. время</p>
         <ul>
-          <li>Разработка мобильного и десктопного приложения для спортсменов (<a href="https://1sport.ru" target="_blank">1sport.ru</a>), более 10 тыс. пользователей, рейтинг Google Play 4.3.</li>
-          <li>Проектирование мобильного приложения (iOS, Android), участие в написании ТЗ и анализе конкурентов.</li>
+          <li>Разработка мобильного и десктопного приложения <a href="https://1sport.ru" target="_blank">1sport.ru</a>
+            (10k+ пользователей, Google Play 4.3).</li>
+          <li>Проектирование mobile-equal (iOS, Android), формирование ТЗ и анализ конкурентов.</li>
           <li>Разработка на платформе <b>1С:Предприятие.Элемент</b>.</li>
-          <li>GIT, CI/CD (Jenkins), автоматизированные тесты (gauge/taiko).</li>
-          <li>Интеграции: Amazon S3, Яндекс.Карты, DaData, Google.</li>
-          <li>Разработка компонентов JS/CSS, документации (Docusaurus, markdown).</li>
+          <li>CI/CD (Jenkins), Git, автоматизированные тесты (gauge/taiko).</li>
+          <li>Интеграции: Amazon S3, Яндекс.Карты, DaData, Google API.</li>
+          <li>Разработка JS/CSS компонентов, документации (Docusaurus, Markdown).</li>
           <li>Опыт работы с LLM (ollama, Llama3.2, DeepSeek-r1).</li>
         </ul>
       </div>
 
       <div class="multi-row">
         <p class="title">Ведущий разработчик 1С, Team Lead</p>
-        <p class="entity">ВТБ Лизинг (Москва) | <a href="https://vtb-leasing.com" target="_blank">vtb-leasing.com</a></p>
+        <p class="entity">ВТБ Лизинг (Москва) — <a href="https://vtb-leasing.com" target="_blank">vtb-leasing.com</a>
+        </p>
         <p class="years">Апрель 2019 – Сентябрь 2022</p>
         <ul>
           <li>Управление командой 7 разработчиков и аналитиков.</li>
-          <li>Разработка и внедрение решений на базе 1С:Предприятие (БП, ЗУП).</li>
+          <li>Разработка и внедрение решений (БП, ЗУП) на 1С:Предприятие.</li>
           <li>Интеграции с CRM, банковскими системами, порталами (REST/SOAP).</li>
-          <li>Внедрение Agile/Scrum (jira), подготовка документации (Confluence).</li>
-          <li>Оптимизация производительности: SQL Profiler, анализ технологического журнала.</li>
+          <li>Agile/Scrum (Jira), документация в Confluence.</li>
+          <li>Оптимизация производительности: SQL Profiler, тех. журнал.</li>
         </ul>
       </div>
 
       <div class="multi-row">
         <p class="title">Ведущий программист 1С</p>
-        <p class="entity">КонсультантПлюс (Ставрополь) | <a href="https://www.consultant.ru" target="_blank">consultant.ru</a></p>
+        <p class="entity">КонсультантПлюс (Ставрополь) — <a href="https://www.consultant.ru"
+            target="_blank">consultant.ru</a></p>
         <p class="years">Август 2016 – Апрель 2019</p>
         <ul>
-          <li>Разработка и внедрение ИС на базе 1С: Управление торговлей 11.</li>
+          <li>Разработка ИС на базе 1С: Управление Торговлей 11.</li>
           <li>Подсистемы: CRM, биллинг, ценообразование, учет взаиморасчетов.</li>
-          <li>CI/CD: Jenkins, SonarQube, дымовые тесты.</li>
-          <li>Методология APDEX для оценки производительности.</li>
-          <li>Работа с RabbitMQ, многопоточная обработка данных.</li>
+          <li>CI/CD (Jenkins, SonarQube, дымовые тесты).</li>
+          <li>APDEX для измерения производительности.</li>
+          <li>Работа с RabbitMQ, многопоточность.</li>
         </ul>
       </div>
 
       <div class="multi-row">
         <p class="title">Ведущий программист 1С, Team Lead</p>
-        <p class="entity">Цифроград-Ставрополь | <a href="http://mobilmir.ru" target="_blank">mobilmir.ru</a></p>
+        <p class="entity">Цифроград-Ставрополь — <a href="http://mobilmir.ru" target="_blank">mobilmir.ru</a></p>
         <p class="years">Март 2011 – Август 2016</p>
         <ul>
-          <li>Разработка и внедрение учетной системы для сети 100+ салонов.</li>
-          <li>Автоматизация управленческого и бухгалтерского учета.</li>
-          <li>Внедрение CRM и синхронизация 100+ баз данных.</li>
-          <li>Работа с подрядчиками, анализ и оптимизация бизнес-процессов.</li>
+          <li>Учетная система для сети 100+ салонов (управленческий и бухучет).</li>
+          <li>Внедрение CRM, синхронизация 100+ баз данных.</li>
+          <li>Оптимизация бизнес-процессов и взаимодействие с подрядчиками.</li>
         </ul>
       </div>
 
       <div class="multi-row">
         <p class="title">Руководитель проекта, ведущий программист 1С</p>
-        <p class="entity">Ставаналит (Ставрополь) | <a href="http://stavanalit.ru" target="_blank">stavanalit.ru</a></p>
+        <p class="entity">Ставаналит (Ставрополь) — <a href="http://stavanalit.ru" target="_blank">stavanalit.ru</a></p>
         <p class="years">Март 2007 – Март 2011</p>
         <ul>
-          <li>Постановка задач и управление программистами.</li>
+          <li>Управление командой, постановка и контроль задач.</li>
           <li>Разработка и внедрение решений для крупных предприятий.</li>
-          <li>Личное участие в разработке и внедрении.</li>
-          <li>Контроль качества документации и реализации.</li>
+          <li>Контроль документации и качества реализации.</li>
         </ul>
       </div>
 
       <div class="multi-row">
         <p class="title">Аспирант</p>
-        <p class="entity">СевКавГТУ (СКФУ) | <a href="http://skf.ru" target="_blank">skf.ru</a></p>
+        <p class="entity">СевКавГТУ (СКФУ) — <a href="http://skf.ru" target="_blank">skf.ru</a></p>
         <p class="years">Сентябрь 2008 – Сентябрь 2011</p>
         <ul>
-          <li>Аспирантура по математическому моделированию и численным методам.</li>
-          <li>9 научных статей, 5 патентов на программные продукты.</li>
+          <li>Аспирантура СевКавГТУ по специальности «Математическое моделирование, численные методы и комплексы
+            программ»</li>
+          <li>9 научных статей, 5 патентов на ПО.</li>
         </ul>
       </div>
-    </section>
-
-    <section id="contacts" class="about">
-      <h4>Контакты</h4>
-      <p>Буду рад новым интересным проектам и сотрудничеству.</p>
-      <div class="multi-row contact-options">
-        <div class="email">maximnechistyak@gmail.com</div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="slide delay02">© Максим Нечистяк 2025</footer>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="slide delay10">© Максим Нечистяк 2025</footer>
 </body>
+
 </html>
