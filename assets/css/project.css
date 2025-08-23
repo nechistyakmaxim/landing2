@@ -388,7 +388,8 @@ h4 {
     grid-template-columns: repeat(2, 1fr);
 }
 .multi-row {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	margin-right: 20px;
 	display: flex;
     flex-direction: column;
 }
