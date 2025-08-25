@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Максим Нечистяк</title>
@@ -32,15 +31,16 @@
 </head>
 
 <body>
-
   <!-- Header -->
-  <div class="header slide">
+  <header class="header slide">
     <a href="index.html" class="logo">Максим Нечистяк</a>
-    <a href="index.html">Проекты</a>
-  </div>
+    <nav>
+      <a href="index.html">Проекты</a>
+    </nav>
+  </header>
 
   <!-- Work Page -->
-  <div class="work-page slide delay01">
+  <main class="work-page slide delay01">
     <div class="work-page-content">
       <h1>Mixology</h1>
       <h3 class="text">
@@ -49,24 +49,27 @@
         Здесь можно найти классические рецепты или придумать авторские миксы.
       </h3>
 
-      <h4>Поиск и коллекция рецептов</h4>
-      <p>
-        В приложении собраны десятки популярных коктейлей: от классических «Маргариты» и «Негрони» до редких миксов.
-        Удобный поиск и фильтрация помогут быстро подобрать напиток по ингредиентам, вкусу или крепости.
-      </p>
+      <section>
+        <p>
+          В приложении собраны десятки популярных коктейлей: от классических «Маргариты» и «Негрони» до редких миксов.
+          Удобный поиск и фильтрация помогут быстро подобрать напиток по ингредиентам, вкусу или крепости.
+        </p>
+      </section>
 
-      <h4>Создание собственных коктейлей</h4>
-      <p>
-        Пользователь может составить свой рецепт: выбрать ингредиенты, указать пропорции, добавить фото и описание.
-        Все созданные коктейли сохраняются в личной коллекции, чтобы легко повторить их позже.
-      </p>
+      <section>
+        <p>
+          Пользователь может составить свой рецепт: выбрать ингредиенты, указать пропорции, добавить фото и описание.
+          Все созданные коктейли сохраняются в личной коллекции, чтобы легко повторить их позже.
+        </p>
+      </section>
 
-      <h4>Сообщество и вдохновение</h4>
-      <p>
-        Приложение позволяет делиться рецептами с другими пользователями, ставить оценки и сохранять понравившиеся
-        варианты.
-        Таким образом Mixology превращается в сообщество любителей коктейлей.
-      </p>
+      <section>
+        <p>
+          Приложение позволяет делиться рецептами с другими пользователями, ставить оценки и сохранять понравившиеся
+          варианты.
+          Таким образом Mixology превращается в сообщество любителей коктейлей.
+        </p>
+      </section>
 
       <p>
         <a href="https://funnyapp.1cmycloud.com/applications/MyCocktail" target="_blank">Открыть приложение</a>
@@ -74,17 +77,24 @@
     </div>
 
     <!-- Картинки-заглушки -->
-    <img src="assets/img/projects/cocktails/cocktail1.webp" class="work-page-image" alt="Список рецептов коктейлей">
-    <img src="assets/img/projects/cocktails/cocktail2.webp" class="work-page-image" alt="Редактор собственного коктейля">
-    <img src="assets/img/projects/cocktails/cocktail3.webp" class="work-page-image" alt="Карточка готового напитка">
+    <figure class="work-page-image">
+      <img src="assets/img/projects/cocktails/cocktail1.webp" alt="Список рецептов коктейлей">
+      <figcaption>Главная страница</figcaption>
+    </figure>
+    <figure class="work-page-image">
+      <img src="assets/img/projects/cocktails/cocktail2.webp" alt="Редактор собственного коктейля">
+      <figcaption>Список рецептов коктейлей</figcaption>
+    </figure>
+    <figure class="work-page-image">
+      <img src="assets/img/projects/cocktails/cocktail3.webp" alt="Карточка готового напитка">
+      <figcaption>Карточка готового напитка</figcaption>
+    </figure>
 
     <div class="back-to-projects">
       <a href="index.html">← Назад к проектам</a>
     </div>
-  </div>
+  </main>
 
   <footer class="slide delay02">© Максим Нечистяк 2025</footer>
-
 </body>
-
 </html>

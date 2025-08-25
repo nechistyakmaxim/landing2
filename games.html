@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Максим Нечистяк</title>
@@ -30,41 +29,46 @@
 </head>
 
 <body>
-
   <!-- Header -->
-  <div class="header slide">
+  <header class="header slide">
     <a href="index.html" class="logo">Максим Нечистяк</a>
-    <a href="index.html">Проекты</a>
-  </div>
+    <nav>
+      <a href="index.html">Проекты</a>
+    </nav>
+  </header>
 
   <!-- Work Page -->
-  <div class="work-page slide delay01">
+  <main class="work-page slide delay01">
     <div class="work-page-content">
       <h1>Браузерные игры</h1>
       <h3 class="text">
-        Я разработал две увлекательные игры, доступные прямо в браузере:
+        Две увлекательные игры, доступные прямо в браузере:
         первая — динамичная аркада luminarium, вторая — логическая игра Сапёр.
       </h3>
 
-      <h4>Игра №1: luminarium</h4>
-      <p>
-        В этой многопользовательской аркаде вы управляете змейкой, которая растёт, поедая светящиеся точки на поле.
-        Цель — стать самой большой змейкой, избегая столкновений с другими игроками.
-        Игра сочетает в себе стратегию и реакцию, создавая динамичную и затягивающую атмосферу.
-      </p>
-      <p>
-        Управление простое: клавиши курсора или мышь для движения. Игра работает прямо в браузере без установки.
-      </p>
+      <section>
+        <h2>Игра №1: luminarium</h2>
+        <p>
+          В этой многопользовательской аркаде вы управляете змейкой, которая растёт, поедая светящиеся точки на поле.
+          Цель — стать самой большой змейкой, избегая столкновений с другими игроками.
+          Игра сочетает в себе стратегию и реакцию, создавая динамичную и затягивающую атмосферу.
+        </p>
+        <p>
+          Управление простое: клавиши курсора или мышь для движения. Игра работает прямо в браузере без установки.
+        </p>
+      </section>
 
-      <h4>Игра №2: Сапёр</h4>
-      <p>
-        Классическая логическая игра, где нужно открывать клетки на поле, избегая мин.
-        Числа на открытых клетках показывают, сколько мин находятся рядом, что помогает планировать ход.
-      </p>
-      <p>
-        Вы можете ставить флажки на подозрительные клетки, чтобы не наступить на мину.
-        Цель — открыть все безопасные клетки и выиграть игру, используя логику и внимательность.
-      </p>
+      <section>
+        <h2>Игра №2: Сапёр</h2>
+        <p>
+          Классическая логическая игра, где нужно открывать клетки на поле, избегая мин.
+          Числа на открытых клетках показывают, сколько мин находятся рядом, что помогает планировать ход.
+        </p>
+        <p>
+          Вы можете ставить флажки на подозрительные клетки, чтобы не наступить на мину.
+          Цель — открыть все безопасные клетки и выиграть игру, используя логику и внимательность.
+        </p>
+      </section>
 
       <p>
         Обе игры доступны онлайн, работают на компьютерах и мобильных устройствах,
@@ -78,18 +82,28 @@
     </div>
 
     <!-- Заглушки-картинки -->
-    <img src="assets/img/projects/games/game1.webp" class="work-page-image" alt="Скриншот игры luminarium">
-    <img src="assets/img/projects/games/game2.webp" class="work-page-image" alt="Геймплей luminarium">
-    <img src="assets/img/projects/games/game3.webp" class="work-page-image" alt="Скриншот игры Сапёр">
-    <img src="assets/img/projects/games/game4.webp" class="work-page-image" alt="Геймплей Сапёра">
+    <figure class="work-page-image">
+      <img src="assets/img/projects/games/game1.webp" alt="Скриншот игры luminarium">
+      <figcaption>Скриншот игры <em>luminarium</em></figcaption>
+    </figure>
+    <figure class="work-page-image">
+      <img src="assets/img/projects/games/game2.webp" alt="Геймплей luminarium">
+      <figcaption>Геймплей <em>luminarium</em></figcaption>
+    </figure>
+    <figure class="work-page-image">
+      <img src="assets/img/projects/games/game3.webp" alt="Скриншот игры Сапёр">
+      <figcaption>Скриншот игры <em>Сапёр</em></figcaption>
+    </figure>
+    <figure class="work-page-image">
+      <img src="assets/img/projects/games/game4.webp" alt="Геймплей Сапёра">
+      <figcaption>Геймплей <em>Сапёра</em></figcaption>
+    </figure>
 
     <div class="back-to-projects">
       <a href="index.html">← Назад к проектам</a>
     </div>
-  </div>
+  </main>
 
   <footer class="slide delay02">© Максим Нечистяк 2025</footer>
-
 </body>
-
 </html>

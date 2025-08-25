@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Максим Нечистяк</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com  ">
+  <link rel="preconnect" href="https://fonts.gstatic.com  " crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Meta -->
@@ -25,7 +24,7 @@
     content="Удобный учет расходов и доходов, финансовая аналитика и контроль бюджета в одном приложении.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="./1Sport_files/Спорт1.webp">
-  <meta property="og:url" content="https://1finance.example.com">
+  <meta property="og:url" content="  https://1finance.example.com  ">
   <meta property="og:locale" content="ru_RU">
 
   <!-- Styles -->
@@ -34,15 +33,19 @@
 
 <body>
 
-  <!-- Header -->
-  <div class="header slide">
-    <a href="index.html" class="logo">Максим Нечистяк</a>
-    <a href="index.html">Проекты</a>
-  </div>
+  <!-- Шапка сайта -->
+  <header class="header slide">
+    <h1 class="logo"><a href="index.html">Максим Нечистяк</a></h1>
+    <nav aria-label="Основная навигация">
+      <a href="index.html">Проекты</a>
+    </nav>
+  </header>
 
-  <!-- Work Page -->
-  <div class="work-page slide delay01">
-    <div class="work-page-content">
+  <!-- Основное содержимое — страница проекта -->
+  <main class="work-page slide delay01">
+
+    <!-- Описание проекта -->
+    <article class="work-page-content">
       <h1>Нотус.Финансы</h1>
       <h3 class="text">
         Нотус.Финансы – это удобное приложение для учета личных доходов и расходов.
@@ -56,7 +59,7 @@
       <p>
         Приложение позволяет ставить финансовые цели – например, накопить на отпуск или новый автомобиль – и следить за
         их прогрессом.
-        Простой интерфейс позволит вводить рутинные опреации просто и быстро
+        Простой интерфейс позволит вводить рутинные операции просто и быстро.
       </p>
       <p>
         Нотус.Финансы подходит как для личного использования, так и для семейного бюджета.
@@ -67,24 +70,35 @@
         сделать Нотус.Финансы ещё более полезным инструментом для управления деньгами.
       </p>
       <!-- <p>
-      <a href="https://apps.apple.com/" target="_blank">Скачать в App Store</a>
-      <a href="https://play.google.com/" target="_blank">Скачать в Google Play</a>
+      <a href="https://apps.apple.com/  " target="_blank">Скачать в App Store</a>
+      <a href="https://play.google.com/  " target="_blank">Скачать в Google Play</a>
     </p> -->
-    </div>
+    </article>
 
-    <!-- Сохраняем старые фото -->
-    <img src="assets/img/projects/finance/finance1.webp" class="work-page-image" alt="Пример экрана приложения Нотус.Финансы">
-    <img src="assets/img/projects/finance/finance2.webp" class="work-page-image" alt="Аналитика расходов">
-    <img src="assets/img/projects/finance/finance3.webp" class="work-page-image" alt="Бюджет и категории трат">
-    <img src="assets/img/projects/finance/finance4.webp" class="work-page-image" alt="Графики доходов и расходов">
+    <!-- Скриншоты приложения -->
+    <section class="screenshots" aria-label="Скриншоты приложения Нотус.Финансы">
+      <figure>
+        <img src="assets/img/projects/finance/finance1.webp" class="work-page-image" alt="Пример экрана приложения Нотус.Финансы">
+      </figure>
+      <figure>
+        <img src="assets/img/projects/finance/finance2.webp" class="work-page-image" alt="Аналитика расходов">
+      </figure>
+      <figure>
+        <img src="assets/img/projects/finance/finance3.webp" class="work-page-image" alt="Бюджет и категории трат">
+      </figure>
+      <figure>
+        <img src="assets/img/projects/finance/finance4.webp" class="work-page-image" alt="Графики доходов и расходов">
+      </figure>
+    </section>
 
-    <div class="back-to-projects">
+    <!-- Навигация назад -->
+    <nav class="back-to-projects" aria-label="Навигация по сайту">
       <a href="index.html">← Назад к проектам</a>
-    </div>
-  </div>
+    </nav>
+  </main>
 
-  <footer class="slide delay02">© Максим Нечистяк 2025</footer>
+  <!-- Подвал сайта -->
+  <footer class="slide">© Максим Нечистяк 2025</footer>
 
 </body>
-
 </html>
